@@ -51,7 +51,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>4.3.8.RELEASE</version>
+			<version>5.2.24.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -62,7 +62,7 @@
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>19.0</version>
+			<version>32.0.0-android</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
@@ -77,12 +77,12 @@
 		<dependency>
 			<groupId>org.elasticsearch</groupId>
 			<artifactId>elasticsearch</artifactId>
-			<version>6.8.17</version>
+			<version>7.17.13</version>
 		</dependency>
 		<dependency>
 			<groupId>org.elasticsearch.client</groupId>
 			<artifactId>transport</artifactId>
-			<version>6.8.17</version>
+			<version>7.17.17</version>
 		</dependency>
 
 		<dependency>
@@ -206,12 +206,12 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.12.6.1</version>
+			<version>2.12.7.1</version>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.28</version>
+			<version>8.0.31</version>
 		</dependency>
 	</dependencies>
 	<build>
@@ -253,9 +253,7 @@
 						<phase>install</phase>
 						<configuration>
 							<target>
-								<copy
-									file="target/pacman-cloud-notifications-jar-with-dependencies.jar"
-									tofile="../../dist/jobs/pacman-cloud-notifications-jar-with-dependencies.jar" />
+								<copy file="target/pacman-cloud-notifications-jar-with-dependencies.jar" tofile="../../dist/jobs/pacman-cloud-notifications-jar-with-dependencies.jar"/>
 							</target>
 						</configuration>
 						<goals>
