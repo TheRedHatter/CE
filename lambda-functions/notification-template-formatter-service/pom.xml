@@ -54,7 +54,7 @@
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-sns</artifactId>
-            <version>1.12.290</version>
+            <version>1.12.728</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -95,7 +95,7 @@
                         <phase>install</phase>
                         <configuration>
                             <target>
-                                <copy file="target/notification-template-formatter-service-shaded.jar" tofile="../../dist/lambda/notification-template-formatter-service.jar" />
+                                <copy file="target/notification-template-formatter-service-shaded.jar" tofile="../../dist/lambda/notification-template-formatter-service.jar"/>
                                 <delete file="target/notification-template-formatter-service-1.0.0-SNAPSHOT.jar"/>
                             </target>
                         </configuration>
