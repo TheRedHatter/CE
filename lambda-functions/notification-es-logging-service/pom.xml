@@ -39,7 +39,7 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.13.4.2</version>
+			<version>2.15.0</version>
 		</dependency>
 
 
@@ -107,7 +107,7 @@
 						<phase>install</phase>
 						<configuration>
 							<target>
-								<copy file="target/notification-es-logging-service-shaded.jar" tofile="../../dist/lambda/notification-es-logging-service.jar" />
+								<copy file="target/notification-es-logging-service-shaded.jar" tofile="../../dist/lambda/notification-es-logging-service.jar"/>
 								<delete file="target/notification-es-logging-service-1.0.0-SNAPSHOT.jar"/>
 							</target>
 						</configuration>
