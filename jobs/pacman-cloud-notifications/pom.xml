@@ -211,7 +211,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.28</version>
+			<version>8.0.31</version>
 		</dependency>
 	</dependencies>
 	<build>
@@ -253,9 +253,7 @@
 						<phase>install</phase>
 						<configuration>
 							<target>
-								<copy
-									file="target/pacman-cloud-notifications-jar-with-dependencies.jar"
-									tofile="../../dist/jobs/pacman-cloud-notifications-jar-with-dependencies.jar" />
+								<copy file="target/pacman-cloud-notifications-jar-with-dependencies.jar" tofile="../../dist/jobs/pacman-cloud-notifications-jar-with-dependencies.jar"/>
 							</target>
 						</configuration>
 						<goals>
