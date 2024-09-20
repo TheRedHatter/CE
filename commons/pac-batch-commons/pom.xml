@@ -48,7 +48,7 @@
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk</artifactId>
-			<version>1.12.290</version>
+			<version>1.12.772</version>
 		</dependency>
 
 		<dependency>
@@ -337,7 +337,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.28</version>
+			<version>8.0.31</version>
 		</dependency>
 
 	</dependencies>
