@@ -7,7 +7,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.0.4.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<groupId>com.paladincloud</groupId>
@@ -77,7 +77,7 @@
 		<dependency>
 			<groupId>com.google.api</groupId>
 			<artifactId>gax-httpjson</artifactId>
-			<version>0.100.0</version>
+			<version>2.54.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.google.auth</groupId>
@@ -369,7 +369,7 @@
 				<version>0.7.6.201602180812</version>
 				<configuration>
 					<excludes>
-						<exclude name="**/Test*.java" />
+						<exclude name="**/Test*.java"/>
 						<exclude>com/tmobile/pacman/api/admin/AdminApplication.java</exclude>
 						<exclude>com/tmobile/pacman/api/admin/config/*</exclude>
 					</excludes>
@@ -398,7 +398,7 @@
 						<phase>install</phase>
 						<configuration>
 							<target>
-								<copy file="target/pacman-api-admin.jar" tofile="../../dist/api/pacman-api-admin.jar" />
+								<copy file="target/pacman-api-admin.jar" tofile="../../dist/api/pacman-api-admin.jar"/>
 							</target>
 						</configuration>
 						<goals>
