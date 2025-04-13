@@ -151,7 +151,7 @@
         <dependency>
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
-            <version>3.21.12</version>
+            <version>3.25.5</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.openjfx</groupId>
@@ -272,8 +272,7 @@
                         <phase>install</phase>
                         <configuration>
                             <target>
-                                <copy file="target/pacbot-gcp-discovery-jar-with-dependencies.jar"
-                                      tofile="../../dist/jobs/pacbot-gcp-discovery.jar"/>
+                                <copy file="target/pacbot-gcp-discovery-jar-with-dependencies.jar" tofile="../../dist/jobs/pacbot-gcp-discovery.jar"/>
                             </target>
                         </configuration>
                         <goals>
