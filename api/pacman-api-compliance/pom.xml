@@ -13,7 +13,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.0.4.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -199,7 +199,7 @@
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-lambda</artifactId>
-			<version>1.11.264</version>
+			<version>1.12.718</version>
 		</dependency>
 
 		<dependency>
@@ -335,7 +335,7 @@
 						<phase>install</phase>
 						<configuration>
 							<target>
-								<copy file="target/pacman-api-compliance.jar" tofile="../../dist/api/pacman-api-compliance.jar" />
+								<copy file="target/pacman-api-compliance.jar" tofile="../../dist/api/pacman-api-compliance.jar"/>
 							</target>
 						</configuration>
 						<goals>
