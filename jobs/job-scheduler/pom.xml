@@ -64,7 +64,7 @@
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-core</artifactId>
-            <version>1.12.239</version>
+            <version>1.12.734</version>
         </dependency>
 
     </dependencies>
@@ -105,8 +105,7 @@
                         <phase>install</phase>
                         <configuration>
                             <target>
-                                <copy file="target/paladin-job-scheduler.jar"
-                                      tofile="../../dist/jobs/paladin-job-scheduler.jar"/>
+                                <copy file="target/paladin-job-scheduler.jar" tofile="../../dist/jobs/paladin-job-scheduler.jar"/>
                             </target>
                         </configuration>
                         <goals>
