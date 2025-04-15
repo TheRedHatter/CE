@@ -31,7 +31,7 @@
         "@apollo/client": "^3.0.0",
         "@ng-select/ng-select": "^8.3.0",
         "@types/geojson": "7946.0.8",
-        "@types/lodash": "4.14.112",
+        "@types/lodash": "4.14.202",
         "ag-grid-angular": "^29.2.0",
         "ag-grid-community": "^29.2.0",
         "angular-in-memory-web-api": "^0.9.0",
