@@ -77,12 +77,12 @@
 		<dependency>
 			<groupId>org.elasticsearch</groupId>
 			<artifactId>elasticsearch</artifactId>
-			<version>6.8.17</version>
+			<version>7.17.23</version>
 		</dependency>
 		<dependency>
 			<groupId>org.elasticsearch.client</groupId>
 			<artifactId>transport</artifactId>
-			<version>6.8.17</version>
+			<version>7.17.23</version>
 		</dependency>
 
 		<dependency>
@@ -253,9 +253,7 @@
 						<phase>install</phase>
 						<configuration>
 							<target>
-								<copy
-									file="target/pacman-cloud-notifications-jar-with-dependencies.jar"
-									tofile="../../dist/jobs/pacman-cloud-notifications-jar-with-dependencies.jar" />
+								<copy file="target/pacman-cloud-notifications-jar-with-dependencies.jar" tofile="../../dist/jobs/pacman-cloud-notifications-jar-with-dependencies.jar"/>
 							</target>
 						</configuration>
 						<goals>
