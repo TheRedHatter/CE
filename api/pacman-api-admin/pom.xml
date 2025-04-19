@@ -7,7 +7,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.0.4.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<groupId>com.paladincloud</groupId>
@@ -273,7 +273,7 @@
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-core</artifactId>
-			<version>1.12.239</version>
+			<version>1.12.770</version>
 		</dependency>
 		<dependency>
 			<groupId>com.amazonaws</groupId>
@@ -369,7 +369,7 @@
 				<version>0.7.6.201602180812</version>
 				<configuration>
 					<excludes>
-						<exclude name="**/Test*.java" />
+						<exclude name="**/Test*.java"/>
 						<exclude>com/tmobile/pacman/api/admin/AdminApplication.java</exclude>
 						<exclude>com/tmobile/pacman/api/admin/config/*</exclude>
 					</excludes>
@@ -398,7 +398,7 @@
 						<phase>install</phase>
 						<configuration>
 							<target>
-								<copy file="target/pacman-api-admin.jar" tofile="../../dist/api/pacman-api-admin.jar" />
+								<copy file="target/pacman-api-admin.jar" tofile="../../dist/api/pacman-api-admin.jar"/>
 							</target>
 						</configuration>
 						<goals>
