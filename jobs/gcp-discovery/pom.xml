@@ -67,7 +67,7 @@
         <dependency>
             <groupId>com.google.cloud</groupId>
             <artifactId>google-cloud-kms</artifactId>
-            <version>2.5.3</version>
+            <version>2.6.2</version>
         </dependency>
         <dependency>
             <groupId>com.google.apis</groupId>
@@ -105,20 +105,20 @@
         <dependency>
             <groupId>com.google.cloud</groupId>
             <artifactId>google-cloud-pubsub</artifactId>
-            <version>1.119.1</version>
+            <version>1.120.5</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.google.cloud/google-cloud-dataproc -->
         <dependency>
             <groupId>com.google.cloud</groupId>
             <artifactId>google-cloud-dataproc</artifactId>
-            <version>3.1.2</version>
+            <version>4.0.2</version>
         </dependency>
 <!--        https://mvnrepository.com/artifact/com.google.cloud/google-cloud-container/2.5.0-->
         <dependency>
             <groupId>com.google.cloud</groupId>
             <artifactId>google-cloud-container</artifactId>
-            <version>2.5.0</version>
+            <version>2.5.1</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.google.cloud/google-cloud-dns -->
         <dependency>
@@ -272,8 +272,7 @@
                         <phase>install</phase>
                         <configuration>
                             <target>
-                                <copy file="target/pacbot-gcp-discovery-jar-with-dependencies.jar"
-                                      tofile="../../dist/jobs/pacbot-gcp-discovery.jar"/>
+                                <copy file="target/pacbot-gcp-discovery-jar-with-dependencies.jar" tofile="../../dist/jobs/pacbot-gcp-discovery.jar"/>
                             </target>
                         </configuration>
                         <goals>
