@@ -77,7 +77,7 @@
 		<dependency>
 			<groupId>org.elasticsearch</groupId>
 			<artifactId>elasticsearch</artifactId>
-			<version>6.8.17</version>
+			<version>7.17.8</version>
 		</dependency>
 		<dependency>
 			<groupId>org.elasticsearch.client</groupId>
@@ -206,7 +206,7 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.12.6.1</version>
+			<version>2.15.0</version>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
@@ -253,9 +253,7 @@
 						<phase>install</phase>
 						<configuration>
 							<target>
-								<copy
-									file="target/pacman-cloud-notifications-jar-with-dependencies.jar"
-									tofile="../../dist/jobs/pacman-cloud-notifications-jar-with-dependencies.jar" />
+								<copy file="target/pacman-cloud-notifications-jar-with-dependencies.jar" tofile="../../dist/jobs/pacman-cloud-notifications-jar-with-dependencies.jar"/>
 							</target>
 						</configuration>
 						<goals>
