@@ -37,7 +37,7 @@
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk</artifactId>
-			<version>1.12.290</version>
+			<version>1.12.741</version>
 		</dependency>
 
 		<dependency>
@@ -49,7 +49,7 @@
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-core</artifactId>
-			<version>1.12.239</version>
+			<version>1.12.741</version>
 		</dependency>
             
 	</dependencies>
