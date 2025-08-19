@@ -15,7 +15,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>4.3.8.RELEASE</version>
+            <version>6.2.10</version>
         </dependency>
         <dependency>
             <groupId>com.paladincloud</groupId>
@@ -272,8 +272,7 @@
                         <phase>install</phase>
                         <configuration>
                             <target>
-                                <copy file="target/pacbot-gcp-discovery-jar-with-dependencies.jar"
-                                      tofile="../../dist/jobs/pacbot-gcp-discovery.jar"/>
+                                <copy file="target/pacbot-gcp-discovery-jar-with-dependencies.jar" tofile="../../dist/jobs/pacbot-gcp-discovery.jar"/>
                             </target>
                         </configuration>
                         <goals>
