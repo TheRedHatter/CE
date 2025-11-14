@@ -105,7 +105,7 @@
         <dependency>
             <groupId>com.google.cloud</groupId>
             <artifactId>google-cloud-pubsub</artifactId>
-            <version>1.119.1</version>
+            <version>1.143.1</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.google.cloud/google-cloud-dataproc -->
@@ -272,8 +272,7 @@
                         <phase>install</phase>
                         <configuration>
                             <target>
-                                <copy file="target/pacbot-gcp-discovery-jar-with-dependencies.jar"
-                                      tofile="../../dist/jobs/pacbot-gcp-discovery.jar"/>
+                                <copy file="target/pacbot-gcp-discovery-jar-with-dependencies.jar" tofile="../../dist/jobs/pacbot-gcp-discovery.jar"/>
                             </target>
                         </configuration>
                         <goals>
