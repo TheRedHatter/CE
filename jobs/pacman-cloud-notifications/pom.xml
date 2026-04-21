@@ -51,7 +51,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>4.3.8.RELEASE</version>
+			<version>6.2.17</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -253,9 +253,7 @@
 						<phase>install</phase>
 						<configuration>
 							<target>
-								<copy
-									file="target/pacman-cloud-notifications-jar-with-dependencies.jar"
-									tofile="../../dist/jobs/pacman-cloud-notifications-jar-with-dependencies.jar" />
+								<copy file="target/pacman-cloud-notifications-jar-with-dependencies.jar" tofile="../../dist/jobs/pacman-cloud-notifications-jar-with-dependencies.jar"/>
 							</target>
 						</configuration>
 						<goals>
