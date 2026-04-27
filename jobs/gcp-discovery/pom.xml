@@ -42,7 +42,7 @@
         <dependency>
             <artifactId>google-cloud-compute</artifactId>
             <groupId>com.google.cloud</groupId>
-            <version>1.8.1</version>
+            <version>1.98.0</version>
         </dependency>
         <dependency>
             <groupId>com.google.cloud</groupId>
@@ -272,8 +272,7 @@
                         <phase>install</phase>
                         <configuration>
                             <target>
-                                <copy file="target/pacbot-gcp-discovery-jar-with-dependencies.jar"
-                                      tofile="../../dist/jobs/pacbot-gcp-discovery.jar"/>
+                                <copy file="target/pacbot-gcp-discovery-jar-with-dependencies.jar" tofile="../../dist/jobs/pacbot-gcp-discovery.jar"/>
                             </target>
                         </configuration>
                         <goals>
